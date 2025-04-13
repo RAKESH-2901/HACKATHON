@@ -1,0 +1,160 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 900px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+
+.modal-header h2 {
+    margin: 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    padding: 0 8px;
+}
+
+.close-button:hover {
+    color: #333;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.content-section {
+    margin-bottom: 30px;
+}
+
+.content-section h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.content-section p {
+    line-height: 1.6;
+    color: #444;
+}
+
+.key-points-list {
+    padding-left: 20px;
+}
+
+.key-points-list li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.detailed-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+}
+
+.detailed-section h4 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.detailed-section ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.detailed-section li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.recent-lectures {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.recent-lecture-item {
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent-lecture-item h4 {
+    margin: 0;
+    color: #333;
+}
+
+.view-button {
+    padding: 8px 16px;
+    background-color: #7c4dff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.view-button:hover {
+    background-color: #6c3fff;
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+        max-height: 95vh;
+    }
+
+    .modal-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .content-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .detailed-section h4 {
+        font-size: 1rem;
+    }
+} 
