@@ -22,4 +22,63 @@ token.pickle
 *.wav
 
 # Text files
-*.txt 
+*.txt
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Next.js
+# =========================
+.next/
+out/
+
+# =========================
+# Vercel deployments (Optional)
+# =========================
+.vercel/
+
+# =========================
+# MacOS system files
+# =========================
+.DS_Store
+
+# =========================
+# Windows system files
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+lerna-debug.log*
+
+# =========================
+# Testing
+# =========================
+coverage/
+
+# =========================
+# Build directories
+# =========================
+dist/
+
+# =========================
+# Others
+# =========================
+*.local
+*.lock
