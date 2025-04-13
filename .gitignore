@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Sensitive files
+credentials.json
+token.pickle
+
+# Audio files
+*.mp3
+*.wav
+
+# Text files
+*.txt 
